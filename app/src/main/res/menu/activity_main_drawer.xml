@@ -5,10 +5,27 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_ganesh_chalisa"
+            android:enabled="true"
+            android:icon="@drawable/ganesh"
+            android:title="@string/menu_ganesh_chalisa"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_shiv_chalisa"
+            android:icon="@drawable/lordshiva"
+            android:title="@string/menu_shiv_chalisa" />
+        <item
             android:id="@+id/nav_chalisa"
-            android:title="@string/menu_chalisa" />
+            android:icon="@drawable/hanumanji"
+            android:title="@string/menu_hanuman_chalisa" />
         <item
             android:id="@+id/nav_ashtak"
+            android:icon="@drawable/hanumanji"
             android:title="@string/menu_ashtak" />
+        <item
+            android:id="@+id/nav_durga_chalisa"
+            android:icon="@drawable/maadurga"
+            android:title="@string/menu_durga_chalisa" />
+
     </group>
 </menu>

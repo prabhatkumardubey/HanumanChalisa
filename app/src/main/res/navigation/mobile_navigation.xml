@@ -3,23 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_chalisa">
+    app:startDestination="@+id/nav_ganesh_chalisa">
+
+    <fragment
+        android:id="@+id/nav_ganesh_chalisa"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.ganesh.GaneshChalisaFragment"
+        android:label="@string/menu_ganesh_chalisa"
+        tools:layout="@layout/fragment_ganesh_chalisa" />
+
+    <fragment
+        android:id="@+id/nav_shiv_chalisa"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.shiv.ShivChalisaFragment"
+        android:label="@string/menu_shiv_chalisa"
+        tools:layout="@layout/fragment_shiv_chalisa" />
 
     <fragment
         android:id="@+id/nav_chalisa"
-        android:name="com.example.hanumanchalisa.ui.chalisa.ChalisaFragment"
-        android:label="@string/menu_chalisa"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.chalisa.ChalisaFragment"
+        android:label="@string/menu_hanuman_chalisa"
         tools:layout="@layout/fragment_chalisa" />
 
     <fragment
         android:id="@+id/nav_ashtak"
-        android:name="com.example.hanumanchalisa.ui.ashtak.AshtakFragment"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.ashtak.AshtakFragment"
         android:label="@string/menu_ashtak"
         tools:layout="@layout/fragment_ashtak" />
 
+    <fragment
+        android:id="@+id/nav_durga_chalisa"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.durga.DurgaChalisaFragment"
+        android:label="@string/menu_durga_chalisa"
+        tools:layout="@layout/fragment_durga_chalisa" />
+
     <!--<fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.hanumanchalisa.ui.slideshow.SlideshowFragment"
+        android:name="dubeytechnologieschnologies.hanumanchalisa.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />-->
 </navigation>
