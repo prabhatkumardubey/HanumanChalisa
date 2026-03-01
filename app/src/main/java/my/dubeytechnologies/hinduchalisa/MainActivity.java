@@ -2,9 +2,11 @@ package my.dubeytechnologies.hinduchalisa;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -16,6 +18,8 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private boolean isChalisaExpanded;
+    private boolean isMantraExpanded;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +37,41 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
+        navigationView.setNavigationItemSelectedListener(item -> handleNavigationSelection(item, navigationView, navController, drawer));
+    }
+
+    private boolean handleNavigationSelection(MenuItem item, NavigationView navigationView, NavController navController, DrawerLayout drawerLayout) {
+        Menu menu = navigationView.getMenu();
+        int itemId = item.getItemId();
+
+        if (itemId == R.id.nav_chalisa_group) {
+            isChalisaExpanded = !isChalisaExpanded;
+            setChalisaItemsVisibility(menu, isChalisaExpanded);
+            return true;
+        }
+
+        if (itemId == R.id.nav_mantra_group) {
+            isMantraExpanded = !isMantraExpanded;
+            setMantraItemsVisibility(menu, isMantraExpanded);
+            return true;
+        }
+
+        boolean handled = NavigationUI.onNavDestinationSelected(item, navController);
+        if (handled) {
+            drawerLayout.closeDrawer(GravityCompat.START);
+        }
+        return handled;
+    }
+
+    private void setChalisaItemsVisibility(Menu menu, boolean isVisible) {
+        menu.findItem(R.id.nav_ganesh_chalisa).setVisible(isVisible);
+        menu.findItem(R.id.nav_shiv_chalisa).setVisible(isVisible);
+        menu.findItem(R.id.nav_hanuman_chalisa).setVisible(isVisible);
+        menu.findItem(R.id.nav_durga_chalisa).setVisible(isVisible);
+    }
+
+    private void setMantraItemsVisibility(Menu menu, boolean isVisible) {
+        menu.findItem(R.id.nav_ashtak).setVisible(isVisible);
     }
 
     @Override
