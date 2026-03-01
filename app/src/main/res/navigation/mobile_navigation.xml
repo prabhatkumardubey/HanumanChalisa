@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_shiv_chalisa" />
 
     <fragment
-        android:id="@+id/nav_chalisa"
-        android:name="my.dubeytechnologies.hinduchalisa.ui.chalisa.ChalisaFragment"
+        android:id="@+id/nav_hanuman_chalisa"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.hanuman.HanumanFragment"
         android:label="@string/menu_hanuman_chalisa"
-        tools:layout="@layout/fragment_chalisa" />
+        tools:layout="@layout/fragment_hanuman_chalisa" />
 
     <fragment
         android:id="@+id/nav_ashtak"
