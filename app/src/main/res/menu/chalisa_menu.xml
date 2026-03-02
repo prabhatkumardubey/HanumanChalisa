@@ -15,9 +15,9 @@
         android:icon="@drawable/hanumanji"
         android:title="@string/menu_hanuman_chalisa" />
     <item
-        android:id="@+id/nav_ashtak"
+        android:id="@+id/nav_ashtak_mantra"
         android:icon="@drawable/hanumanji"
-        android:title="@string/menu_ashtak" />
+        android:title="@string/menu_ashtak_mantra" />
     <item
         android:id="@+id/nav_durga_chalisa"
         android:icon="@drawable/maadurga"

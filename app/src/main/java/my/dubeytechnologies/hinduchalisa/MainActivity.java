@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_ashtak, R.id.nav_ganesh_chalisa, R.id.nav_shiv_chalisa, R.id.nav_hanuman_chalisa, R.id.nav_durga_chalisa)
+                R.id.nav_ashtak_mantra, R.id.nav_ganesh_chalisa, R.id.nav_shiv_chalisa, R.id.nav_hanuman_chalisa, R.id.nav_durga_chalisa, R.id.nav_mahamritunjay_mantra, R.id.nav_narsimha_mantra, R.id.nav_madhurashtakam_mantra)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -71,7 +71,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setMantraItemsVisibility(Menu menu, boolean isVisible) {
-        menu.findItem(R.id.nav_ashtak).setVisible(isVisible);
+        menu.findItem(R.id.nav_ashtak_mantra).setVisible(isVisible);
+        menu.findItem(R.id.nav_mahamritunjay_mantra).setVisible(isVisible);
+        menu.findItem(R.id.nav_narsimha_mantra).setVisible(isVisible);
+        menu.findItem(R.id.nav_madhurashtakam_mantra).setVisible(isVisible);
     }
 
     @Override

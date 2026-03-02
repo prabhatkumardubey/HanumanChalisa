@@ -7,7 +7,7 @@
     android:background="#FFA73B"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context=".ui.durga.DurgaChalisaFragment">
+    tools:context=".ui.chalisa.durga.DurgaChalisaFragment">
 
     <ScrollView
         android:id="@+id/scrollView"

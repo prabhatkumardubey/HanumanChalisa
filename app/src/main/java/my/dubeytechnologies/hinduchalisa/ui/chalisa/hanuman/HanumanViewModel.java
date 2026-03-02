@@ -1,13 +1,13 @@
-package my.dubeytechnologies.hinduchalisa.ui.durga;
+package my.dubeytechnologies.hinduchalisa.ui.chalisa.hanuman;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DurgaChalisaViewModel extends ViewModel {
+public class HanumanViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public DurgaChalisaViewModel() {
+    public HanumanViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is home fragment");
     }

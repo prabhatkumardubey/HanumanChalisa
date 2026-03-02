@@ -1,4 +1,4 @@
-package my.dubeytechnologies.hinduchalisa.ui.ashtak;
+package my.dubeytechnologies.hinduchalisa.ui.mantra.ashtak;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import my.dubeytechnologies.hinduchalisa.R;
 
-public class AshtakFragment extends Fragment {
+public class AshtakMantraFragment extends Fragment {
 
     private AshtakViewModel ashtakViewModel;
 
@@ -19,7 +19,7 @@ public class AshtakFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         ashtakViewModel =
                 ViewModelProviders.of(this).get(AshtakViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_ashtak, container, false);
+        View root = inflater.inflate(R.layout.fragment_ashtak_mantra, container, false);
         /*final TextView textView = root.findViewById(R.id.text_home);
         ashtakViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

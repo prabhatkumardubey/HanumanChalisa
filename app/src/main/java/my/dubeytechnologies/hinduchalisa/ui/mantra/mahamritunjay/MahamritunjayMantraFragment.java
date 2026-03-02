@@ -1,4 +1,4 @@
-package my.dubeytechnologies.hinduchalisa.ui.shiv;
+package my.dubeytechnologies.hinduchalisa.ui.mantra.mahamritunjay;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,15 +11,15 @@ import androidx.lifecycle.ViewModelProviders;
 
 import my.dubeytechnologies.hinduchalisa.R;
 
-public class ShivChalisaFragment extends Fragment {
+public class MahamritunjayMantraFragment extends Fragment {
 
-    private ShivChalisaViewModel shivChalisaViewModel;
+    private MahamritunjayMantraViewModel mahamritunjayMantraViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        shivChalisaViewModel =
-                ViewModelProviders.of(this).get(ShivChalisaViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_shiv_chalisa, container, false);
+        mahamritunjayMantraViewModel = 
+                ViewModelProviders.of(this).get(MahamritunjayMantraViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_mahamritunjay_mantra, container, false);
         return root;
     }
 }

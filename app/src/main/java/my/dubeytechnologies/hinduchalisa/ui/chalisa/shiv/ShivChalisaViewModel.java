@@ -1,13 +1,13 @@
-package my.dubeytechnologies.hinduchalisa.ui.ganesh;
+package my.dubeytechnologies.hinduchalisa.ui.chalisa.shiv;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GaneshChalisaViewModel extends ViewModel {
+public class ShivChalisaViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public GaneshChalisaViewModel() {
+    public ShivChalisaViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is home fragment");
     }

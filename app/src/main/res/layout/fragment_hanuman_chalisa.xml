@@ -7,7 +7,7 @@
     android:background="#FFA73B"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context=".ui.hanuman.HanumanFragment">
+    tools:context=".ui.chalisa.hanuman.HanumanFragment">
 
     <ScrollView
         android:id="@+id/scrollView"

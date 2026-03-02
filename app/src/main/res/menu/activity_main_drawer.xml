@@ -32,9 +32,24 @@
             android:id="@+id/nav_mantra_group"
             android:title="@string/menu_mantra" />
         <item
-            android:id="@+id/nav_ashtak"
+            android:id="@+id/nav_ashtak_mantra"
             android:icon="@drawable/hanumanji"
-            android:title="@string/menu_ashtak"
+            android:title="@string/menu_ashtak_mantra"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_mahamritunjay_mantra"
+            android:icon="@drawable/lordshiva"
+            android:title="@string/menu_mahamritunjay_mantra"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_narsimha_mantra"
+            android:icon="@drawable/narsimha"
+            android:title="@string/menu_narsimha_mantra"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_madhurashtakam_mantra"
+            android:icon="@drawable/krishna"
+            android:title="@string/menu_madhurashtakam_mantra"
             android:visible="false" />
     </group>
 </menu>

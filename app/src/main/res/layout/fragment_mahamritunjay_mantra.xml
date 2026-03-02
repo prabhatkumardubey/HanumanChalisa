@@ -7,10 +7,10 @@
     android:background="#FFA73B"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context=".ui.ashtak.AshtakFragment">
+    tools:context=".ui.mantra.mahamritunjay.MahamritunjayMantraFragment">
 
     <ScrollView
-        android:id="@+id/scrollView"
+        android:id="@+id/mantra_scroll"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_alignParentStart="true"
@@ -22,10 +22,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        app:layout_constraintTop_toBottomOf="@+id/mantra_image">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/mantra_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -41,7 +41,7 @@
             android:outlineProvider="paddedBounds"
             android:padding="@dimen/activity_horizontal_margin"
             android:singleLine="false"
-            android:text="@string/hanumanashtakvalue"
+            android:text="@string/mahamritunjaymantravalue"
             android:textAlignment="center"
             android:textColor="@color/abc_primary_text_material_light"
             android:textIsSelectable="false"
@@ -50,13 +50,13 @@
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/mantra_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="139dp"
         android:layout_marginEnd="138dp"
-        android:src="@drawable/hanumanji"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView"
+        android:src="@drawable/lordshiva"
+        app:layout_constraintBottom_toTopOf="@+id/mantra_scroll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

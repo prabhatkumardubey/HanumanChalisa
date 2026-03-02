@@ -7,37 +7,50 @@
 
     <fragment
         android:id="@+id/nav_ganesh_chalisa"
-        android:name="my.dubeytechnologies.hinduchalisa.ui.ganesh.GaneshChalisaFragment"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.chalisa.ganesh.GaneshChalisaFragment"
         android:label="@string/menu_ganesh_chalisa"
         tools:layout="@layout/fragment_ganesh_chalisa" />
 
     <fragment
         android:id="@+id/nav_shiv_chalisa"
-        android:name="my.dubeytechnologies.hinduchalisa.ui.shiv.ShivChalisaFragment"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.chalisa.shiv.ShivChalisaFragment"
         android:label="@string/menu_shiv_chalisa"
         tools:layout="@layout/fragment_shiv_chalisa" />
 
     <fragment
         android:id="@+id/nav_hanuman_chalisa"
-        android:name="my.dubeytechnologies.hinduchalisa.ui.hanuman.HanumanFragment"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.chalisa.hanuman.HanumanFragment"
         android:label="@string/menu_hanuman_chalisa"
         tools:layout="@layout/fragment_hanuman_chalisa" />
 
     <fragment
-        android:id="@+id/nav_ashtak"
-        android:name="my.dubeytechnologies.hinduchalisa.ui.ashtak.AshtakFragment"
-        android:label="@string/menu_ashtak"
-        tools:layout="@layout/fragment_ashtak" />
-
-    <fragment
         android:id="@+id/nav_durga_chalisa"
-        android:name="my.dubeytechnologies.hinduchalisa.ui.durga.DurgaChalisaFragment"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.chalisa.durga.DurgaChalisaFragment"
         android:label="@string/menu_durga_chalisa"
         tools:layout="@layout/fragment_durga_chalisa" />
 
-    <!--<fragment
-        android:id="@+id/nav_slideshow"
-        android:name="dubeytechnologieschnologies.hanumanchalisa.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />-->
+    <fragment
+        android:id="@+id/nav_ashtak_mantra"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.mantra.ashtak.AshtakMantraFragment"
+        android:label="@string/menu_ashtak_mantra"
+        tools:layout="@layout/fragment_ashtak_mantra" />
+
+    <fragment
+        android:id="@+id/nav_mahamritunjay_mantra"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.mantra.mahamritunjay.MahamritunjayMantraFragment"
+        android:label="@string/menu_mahamritunjay_mantra"
+        tools:layout="@layout/fragment_mahamritunjay_mantra" />
+
+    <fragment
+        android:id="@+id/nav_narsimha_mantra"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.mantra.narsimha.NarsimhaMantraFragment"
+        android:label="@string/menu_narsimha_mantra"
+        tools:layout="@layout/fragment_narsimha_mantra" />
+
+    <fragment
+        android:id="@+id/nav_madhurashtakam_mantra"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.mantra.madhurashtakam.MadhurashtakamMantraFragment"
+        android:label="@string/menu_madhurashtakam_mantra"
+        tools:layout="@layout/fragment_madhurashtakam_mantra" />
+
 </navigation>

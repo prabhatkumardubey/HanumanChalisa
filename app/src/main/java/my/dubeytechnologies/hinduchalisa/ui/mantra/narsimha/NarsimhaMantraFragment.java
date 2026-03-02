@@ -1,4 +1,4 @@
-package my.dubeytechnologies.hinduchalisa.ui.ganesh;
+package my.dubeytechnologies.hinduchalisa.ui.mantra.narsimha;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,15 +11,15 @@ import androidx.lifecycle.ViewModelProviders;
 
 import my.dubeytechnologies.hinduchalisa.R;
 
-public class GaneshChalisaFragment extends Fragment {
+public class NarsimhaMantraFragment extends Fragment {
 
-    private GaneshChalisaViewModel ganeshChalisaViewModel;
+    private NarsimhaMantraViewModel narsimhaMantraViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        ganeshChalisaViewModel =
-                ViewModelProviders.of(this).get(GaneshChalisaViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_ganesh_chalisa, container, false);
+        narsimhaMantraViewModel = 
+                ViewModelProviders.of(this).get(NarsimhaMantraViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_narsimha_mantra, container, false);
         return root;
     }
 }

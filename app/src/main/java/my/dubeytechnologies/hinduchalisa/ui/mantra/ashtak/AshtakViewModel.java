@@ -1,15 +1,16 @@
-package my.dubeytechnologies.hinduchalisa.ui.hanuman;
+package my.dubeytechnologies.hinduchalisa.ui.mantra.ashtak;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HanumanViewModel extends ViewModel {
+public class AshtakViewModel extends ViewModel {
+
     private final MutableLiveData<String> mText;
 
-    public HanumanViewModel() {
+    public AshtakViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is gallery fragment");
     }
 
     public LiveData<String> getText() {
