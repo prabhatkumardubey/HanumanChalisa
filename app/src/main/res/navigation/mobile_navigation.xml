@@ -53,4 +53,82 @@
         android:label="@string/menu_madhurashtakam_mantra"
         tools:layout="@layout/fragment_madhurashtakam_mantra" />
 
+    <fragment
+        android:id="@+id/nav_hanuman_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.hanuman.HanumanAartiFragment"
+        android:label="@string/menu_hanuman_aarti"
+        tools:layout="@layout/fragment_hanuman_aarti" />
+
+    <fragment
+        android:id="@+id/nav_ganesh_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.ganesh.GaneshAartiFragment"
+        android:label="@string/menu_ganesh_aarti"
+        tools:layout="@layout/fragment_ganesh_aarti" />
+
+    <fragment
+        android:id="@+id/nav_shiv_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.shiv.ShivAartiFragment"
+        android:label="@string/menu_shiv_aarti"
+        tools:layout="@layout/fragment_shiv_aarti" />
+
+    <fragment
+        android:id="@+id/nav_durga_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.durga.DurgaAartiFragment"
+        android:label="@string/menu_durga_aarti"
+        tools:layout="@layout/fragment_durga_aarti" />
+
+    <fragment
+        android:id="@+id/nav_krishna_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.krishna.KrishnaAartiFragment"
+        android:label="@string/menu_krishna_aarti"
+        tools:layout="@layout/fragment_krishna_aarti" />
+
+    <fragment
+        android:id="@+id/nav_surya_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.surya.SuryaAartiFragment"
+        android:label="@string/menu_surya_aarti"
+        tools:layout="@layout/fragment_surya_aarti" />
+
+    <fragment
+        android:id="@+id/nav_shani_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.shani.ShaniAartiFragment"
+        android:label="@string/menu_shani_aarti"
+        tools:layout="@layout/fragment_shani_aarti" />
+
+    <fragment
+        android:id="@+id/nav_omjaijagadish_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.omjaijagadish.OmJaiJagadishAartiFragment"
+        android:label="@string/menu_omjaijagadish_aarti"
+        tools:layout="@layout/fragment_om_jai_jagadish_aarti" />
+
+    <fragment
+        android:id="@+id/nav_ekadashi_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.ekadashi.EkadashiAartiFragment"
+        android:label="@string/menu_ekadashi_aarti"
+        tools:layout="@layout/fragment_ekadashi_aarti" />
+
+    <fragment
+        android:id="@+id/nav_brihaspati_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.brihaspati.BrihaspatiAartiFragment"
+        android:label="@string/menu_brihaspati_aarti"
+        tools:layout="@layout/fragment_brihaspati_aarti" />
+
+    <fragment
+        android:id="@+id/nav_lakshmi_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.lakshmi.LakshmiAartiFragment"
+        android:label="@string/menu_lakshmi_aarti"
+        tools:layout="@layout/fragment_lakshmi_aarti" />
+
+    <fragment
+        android:id="@+id/nav_satyanarayan_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.satyanarayan.SatyanarayanAartiFragment"
+        android:label="@string/menu_satyanarayan_aarti"
+        tools:layout="@layout/fragment_satyanarayan_aarti" />
+
+    <fragment
+        android:id="@+id/nav_kaali_aarti"
+        android:name="my.dubeytechnologies.hinduchalisa.ui.aarti.kaali.KaaliAartiFragment"
+        android:label="@string/menu_kaali_aarti"
+        tools:layout="@layout/fragment_kaali_aarti" />
+
 </navigation>

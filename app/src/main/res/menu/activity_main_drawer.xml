@@ -9,7 +9,7 @@
             android:title="@string/menu_chalisa" />
         <item
             android:id="@+id/nav_ganesh_chalisa"
-            android:icon="@drawable/ganesh"
+            android:icon="@drawable/ganeshdev"
             android:title="@string/menu_ganesh_chalisa"
             android:visible="false" />
         <item
@@ -19,7 +19,7 @@
             android:visible="false" />
         <item
             android:id="@+id/nav_hanuman_chalisa"
-            android:icon="@drawable/hanumanji"
+            android:icon="@drawable/hanumandev"
             android:title="@string/menu_hanuman_chalisa"
             android:visible="false" />
         <item
@@ -33,7 +33,7 @@
             android:title="@string/menu_mantra" />
         <item
             android:id="@+id/nav_ashtak_mantra"
-            android:icon="@drawable/hanumanji"
+            android:icon="@drawable/hanumandev"
             android:title="@string/menu_ashtak_mantra"
             android:visible="false" />
         <item
@@ -43,13 +43,82 @@
             android:visible="false" />
         <item
             android:id="@+id/nav_narsimha_mantra"
-            android:icon="@drawable/narsimha"
+            android:icon="@drawable/narsimhadev"
             android:title="@string/menu_narsimha_mantra"
             android:visible="false" />
         <item
             android:id="@+id/nav_madhurashtakam_mantra"
-            android:icon="@drawable/krishna"
+            android:icon="@drawable/krishnadev"
             android:title="@string/menu_madhurashtakam_mantra"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_aarti_group"
+            android:title="@string/menu_aarti" />
+        <item
+            android:id="@+id/nav_hanuman_aarti"
+            android:icon="@drawable/hanumandev"
+            android:title="@string/menu_hanuman_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_ganesh_aarti"
+            android:icon="@drawable/ganeshdev"
+            android:title="@string/menu_ganesh_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_shiv_aarti"
+            android:icon="@drawable/lordshiva"
+            android:title="@string/menu_shiv_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_durga_aarti"
+            android:icon="@drawable/maadurga"
+            android:title="@string/menu_durga_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_krishna_aarti"
+            android:icon="@drawable/krishnadev"
+            android:title="@string/menu_krishna_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_surya_aarti"
+            android:icon="@drawable/suryadev"
+            android:title="@string/menu_surya_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_shani_aarti"
+            android:icon="@drawable/shanidev"
+            android:title="@string/menu_shani_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_omjaijagadish_aarti"
+            android:icon="@drawable/vishnudev"
+            android:title="@string/menu_omjaijagadish_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_ekadashi_aarti"
+            android:icon="@drawable/vishnudev"
+            android:title="@string/menu_ekadashi_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_brihaspati_aarti"
+            android:icon="@drawable/vishnudev"
+            android:title="@string/menu_brihaspati_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_lakshmi_aarti"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_lakshmi_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_satyanarayan_aarti"
+            android:icon="@drawable/vishnudev"
+            android:title="@string/menu_satyanarayan_aarti"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_kaali_aarti"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_kaali_aarti"
             android:visible="false" />
     </group>
 </menu>

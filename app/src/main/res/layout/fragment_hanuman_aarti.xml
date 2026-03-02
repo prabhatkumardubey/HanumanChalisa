@@ -7,7 +7,7 @@
     android:background="#FFA73B"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context=".ui.chalisa.hanuman.HanumanFragment">
+    tools:context=".ui.aarti.hanuman.HanumanAartiFragment">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -41,7 +41,7 @@
             android:outlineProvider="paddedBounds"
             android:padding="@dimen/activity_horizontal_margin"
             android:singleLine="false"
-            android:text="@string/hanumanchalisavalue"
+            android:text="@string/hanumanaartivalue"
             android:textAlignment="center"
             android:textColor="@color/abc_primary_text_material_light"
             android:textIsSelectable="false"

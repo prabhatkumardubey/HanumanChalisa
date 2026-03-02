@@ -3,7 +3,7 @@
     <item
         android:id="@+id/nav_ganesh_chalisa"
         android:enabled="true"
-        android:icon="@drawable/ganesh"
+        android:icon="@drawable/ganeshdev"
         android:title="@string/menu_ganesh_chalisa"
         android:visible="true" />
     <item
@@ -12,11 +12,11 @@
         android:title="@string/menu_shiv_chalisa" />
     <item
         android:id="@+id/nav_hanuman_chalisa"
-        android:icon="@drawable/hanumanji"
+        android:icon="@drawable/hanumandev"
         android:title="@string/menu_hanuman_chalisa" />
     <item
         android:id="@+id/nav_ashtak_mantra"
-        android:icon="@drawable/hanumanji"
+        android:icon="@drawable/hanumandev"
         android:title="@string/menu_ashtak_mantra" />
     <item
         android:id="@+id/nav_durga_chalisa"

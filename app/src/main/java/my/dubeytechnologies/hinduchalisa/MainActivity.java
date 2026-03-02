@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private boolean isChalisaExpanded;
     private boolean isMantraExpanded;
+    private boolean isAartiExpanded;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_ashtak_mantra, R.id.nav_ganesh_chalisa, R.id.nav_shiv_chalisa, R.id.nav_hanuman_chalisa, R.id.nav_durga_chalisa, R.id.nav_mahamritunjay_mantra, R.id.nav_narsimha_mantra, R.id.nav_madhurashtakam_mantra)
+                R.id.nav_ashtak_mantra, R.id.nav_ganesh_chalisa, R.id.nav_shiv_chalisa, R.id.nav_hanuman_chalisa, R.id.nav_durga_chalisa, R.id.nav_mahamritunjay_mantra, R.id.nav_narsimha_mantra, R.id.nav_madhurashtakam_mantra,
+                R.id.nav_hanuman_aarti, R.id.nav_ganesh_aarti, R.id.nav_shiv_aarti, R.id.nav_durga_aarti, R.id.nav_krishna_aarti, R.id.nav_surya_aarti, R.id.nav_shani_aarti, R.id.nav_omjaijagadish_aarti, R.id.nav_ekadashi_aarti, R.id.nav_brihaspati_aarti, R.id.nav_lakshmi_aarti, R.id.nav_satyanarayan_aarti, R.id.nav_kaali_aarti)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -56,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if (itemId == R.id.nav_aarti_group) {
+            isAartiExpanded = !isAartiExpanded;
+            setAartiItemsVisibility(menu, isAartiExpanded);
+            return true;
+        }
+
         boolean handled = NavigationUI.onNavDestinationSelected(item, navController);
         if (handled) {
             drawerLayout.closeDrawer(GravityCompat.START);
@@ -75,6 +83,22 @@ public class MainActivity extends AppCompatActivity {
         menu.findItem(R.id.nav_mahamritunjay_mantra).setVisible(isVisible);
         menu.findItem(R.id.nav_narsimha_mantra).setVisible(isVisible);
         menu.findItem(R.id.nav_madhurashtakam_mantra).setVisible(isVisible);
+    }
+
+    private void setAartiItemsVisibility(Menu menu, boolean isVisible) {
+        menu.findItem(R.id.nav_hanuman_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_ganesh_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_shiv_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_durga_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_krishna_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_surya_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_shani_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_omjaijagadish_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_ekadashi_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_brihaspati_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_lakshmi_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_satyanarayan_aarti).setVisible(isVisible);
+        menu.findItem(R.id.nav_kaali_aarti).setVisible(isVisible);
     }
 
     @Override

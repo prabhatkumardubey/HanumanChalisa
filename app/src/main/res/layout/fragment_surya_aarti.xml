@@ -7,7 +7,7 @@
     android:background="#FFA73B"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context=".ui.chalisa.hanuman.HanumanFragment">
+    tools:context=".ui.aarti.surya.SuryaAartiFragment">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -41,7 +41,7 @@
             android:outlineProvider="paddedBounds"
             android:padding="@dimen/activity_horizontal_margin"
             android:singleLine="false"
-            android:text="@string/hanumanchalisavalue"
+            android:text="@string/suryaaartivalue"
             android:textAlignment="center"
             android:textColor="@color/abc_primary_text_material_light"
             android:textIsSelectable="false"
@@ -55,7 +55,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="139dp"
         android:layout_marginEnd="138dp"
-        android:src="@drawable/hanumandev"
+        android:src="@drawable/suryadev"
         app:layout_constraintBottom_toTopOf="@+id/scrollView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
